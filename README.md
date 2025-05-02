@@ -42,7 +42,7 @@ Um aplicativo simples e poderoso para gerenciar receitas, despesas, saldo e cart
 
 1️⃣ Clone o repositório:
 
-git clone https://github.com/seu-usuario/controle-financas.git
+git clone https://github.com/MNeto7/controle-financeiro
 
 2️⃣ Instale as dependências:
 
@@ -68,8 +68,11 @@ O executável estará na pasta dist/.
 ![Menu Princial](images/menu_principal.png)
 ![Adicionar Transação](images/adicionar_transacao.png)
 ![Filtrar Transações](images/filtrar_por_data.png)
-![Exportar Transações](images/definir_vencimento_fatura)
+![Exportar Transações](images/definir_vencimento_fatura.png)
 ![Ver Transações](images/ver_transacoes.png)
 
 🤝 Contribuição
 Sinta-se à vontade para abrir issues e pull requests!
+
+📜 Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
