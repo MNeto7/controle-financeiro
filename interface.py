@@ -5,8 +5,6 @@ from tkcalendar import DateEntry
 from ttkthemes import ThemedTk
 from datetime import datetime
 import pandas as pd
-from openpyxl.styles import Font, Alignment
-from openpyxl.utils import get_column_letter
 from finance_manager import FinanceManager
 
 manager = FinanceManager()
@@ -40,7 +38,8 @@ def adicionar_transação():
     tipo_var = tk.StringVar()
     tipo_combobox = ttk.Combobox(janela, textvariable=tipo_var, values=["Receita", "Despesa"], state="readonly")
     tipo_combobox.pack()
-
+    
+    # Exibe o campo de seleção de forma de pagamento apenas para transações de despesa
     forma_pagamento_label = ttk.Label(janela, text="Forma de Pagamento:")
     forma_pagamento_var = tk.StringVar()
     combo_pagamento = ttk.Combobox(janela, textvariable=forma_pagamento_var, values=["Débito/Pix", "Crédito"], state="readonly")
