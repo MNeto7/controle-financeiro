@@ -5,9 +5,6 @@ import os
 from datetime import datetime
 from openpyxl.utils import get_column_letter
 from openpyxl.styles import PatternFill, Font, NamedStyle
-from openpyxl import load_workbook
-from openpyxl.utils.datetime import from_excel
-from openpyxl.styles.numbers import FORMAT_DATE_DDMMYY
 
 data_file = "data/transacoes.json"
 

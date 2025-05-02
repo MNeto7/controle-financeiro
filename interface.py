@@ -7,7 +7,6 @@ from datetime import datetime
 import pandas as pd
 from openpyxl.styles import Font, Alignment
 from openpyxl.utils import get_column_letter
-
 from finance_manager import FinanceManager
 
 manager = FinanceManager()
