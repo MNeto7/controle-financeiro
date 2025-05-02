@@ -16,6 +16,7 @@ Um aplicativo simples e poderoso para gerenciar receitas, despesas, saldo e cart
 ✅ Gerar gráficos:
 - 📈 Entradas, Saídas e Saldo no tempo  
 - 🥧 Gastos por categoria
+
 ✅ Exportar transações para Excel (`.xlsx`) com filtro por data e formatação automática  
 ✅ Interface gráfica moderna com emojis e visual amigável
 
