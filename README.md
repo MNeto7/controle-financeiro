@@ -57,6 +57,8 @@ No cmd/terminal:python interface.py
 O arquivo executável estará na pasta dist/.
 
 📸 Imagens do sistema:
+
+
 ![Menu Princial](images/menu_principal.png)
 ![Adicionar Transação](images/adicionar_transacao.png)
 ![Filtrar Transações](images/filtrar_por_data.png)
