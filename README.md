@@ -50,19 +50,11 @@ pip install tkcalendar ttkthemes matplotlib pandas openpyxl
 
 3️⃣ Execute a aplicação:
 
-python interface.py
+No cmd/terminal:python interface.py
 
-## 💻 Como gerar o executável
+## 💻 Como usar o executável
 
-1️⃣ Instale o pyinstaller:
-
-pip install pyinstaller
-
-2️⃣ Gere o executável:
-
-pyinstaller --onefile --windowed interface.py
-
-O executável estará na pasta dist/.
+O arquivo executável estará na pasta dist/.
 
 📸 Imagens do sistema:
 ![Menu Princial](images/menu_principal.png)
